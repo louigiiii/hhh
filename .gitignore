@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+
+# Poids / artefacts entraînés (trop volumineux pour GitHub)
+model/
+
+# Dossier data optionnel : ignorer le contenu, garder juste le .gitkeep si présent
+data/*
+!data/.gitkeep
+
+# Logs
+*.log
+
+# Secrets / env
+.env
+
